@@ -1,7 +1,7 @@
 import { Document, Schema, Model, model } from 'mongoose'
-import { User as IUser } from '../interfaces/user'
+import { UserInterface } from '../interfaces/user'
 
-export interface UserModel extends IUser, Document {
+export interface UserModel extends UserInterface, Document {
   fullName(): string
 }
 

@@ -1,5 +1,5 @@
-export interface User {
-  email?: string;
-  firstName?: string;
-  lastName?: string;
+export interface UserInterface {
+  email?: string
+  firstName?: string
+  lastName?: string
 }
